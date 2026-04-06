@@ -1,0 +1,506 @@
+{
+  "acercaDe": {
+    "title": "Acerca de RutasMEX",
+    "description": "Aplicación de transporte público en México. Disponible en 4 ciudades de Chiapas: Tuxtla Gutiérrez, San Cristóbal de las Casas, Comitán y Tapachula. Planifica tus trayectos con origen y destino, visualiza rutas en el mapa, elige el sentido de ruta (ida, regreso o completo), recibe alertas progresivas de proximidad con geofencing, y sigue tu progreso en la Dynamic Island. Guarda tus lugares y favoritos para acceso rápido. Nos estamos expandiendo a más ciudades del país.",
+    "featuresTitle": "Características",
+    "features": [
+      {
+        "icon": "map",
+        "title": "Rutas Completas",
+        "description": "Visualiza rutas de transporte público con sentido de ida, regreso o completo"
+      },
+      {
+        "icon": "location.fill",
+        "title": "Planificador de Trayectos",
+        "description": "Configura origen y destino, ajusta radios de búsqueda y encuentra las mejores rutas"
+      },
+      {
+        "icon": "bell.badge",
+        "title": "Alertas de Proximidad",
+        "description": "3 alertas progresivas con geofencing que funcionan en segundo plano"
+      },
+      {
+        "icon": "iphone.badge.play",
+        "title": "Dynamic Island",
+        "description": "Sigue tu trayecto en tiempo real sin abrir la app"
+      },
+      {
+        "icon": "star",
+        "title": "Favoritos y Mis Lugares",
+        "description": "Guarda tus búsquedas frecuentes y lugares habituales para acceso rápido"
+      },
+      {
+        "icon": "arrow.triangle.swap",
+        "title": "Modos de Cálculo",
+        "description": "Directo, Proyección, MapKit e Híbrido para mayor precisión"
+      },
+      {
+        "icon": "clock.arrow.circlepath",
+        "title": "Historial",
+        "description": "Revisa tus trayectos anteriores con detalle"
+      },
+      {
+        "icon": "map.circle",
+        "title": "Mapas Interactivos",
+        "description": "Vista estándar y satélite con MapKit"
+      },
+      {
+        "icon": "lock.shield",
+        "title": "Privacidad",
+        "description": "Tus datos permanecen en tu dispositivo"
+      }
+    ],
+    "legal": {
+      "copyright": "© 2026 RutasMEX",
+      "developer": "Desarrollado por AzyroApp",
+      "madeIn": "Hecho con ❤️ en México"
+    }
+  },
+  "ayuda": {
+    "sections": [
+      {
+        "title": "🌍 Cobertura y Disponibilidad",
+        "items": [
+          {
+            "title": "Ciudades Disponibles",
+            "description": "Actualmente RutasMEX está disponible en 4 ciudades de Chiapas. Estamos trabajando para expandirnos a más ciudades de México."
+          },
+          {
+            "title": "Detección Automática",
+            "description": "La app detecta automáticamente tu ciudad al iniciar. Si tu ciudad no está disponible, te notificaremos cuando se agregue."
+          },
+          {
+            "title": "Suscripciones",
+            "description": "Algunas ciudades requieren suscripción anual para acceder a sus rutas. Puedes administrar tus suscripciones desde Ajustes de iOS."
+          }
+        ]
+      },
+      {
+        "title": "🗺️ Visualización de Rutas",
+        "items": [
+          {
+            "title": "Buscar Rutas",
+            "description": "Toca el botón de búsqueda (🔍) para abrir el buscador. Puedes buscar por nombre o número de ruta."
+          },
+          {
+            "title": "Seleccionar Rutas",
+            "description": "Toca los botones de ruta en el panel inferior para seleccionar o deseleccionar. Las rutas con nombre completo se muestran primero, seguidas de las numéricas."
+          },
+          {
+            "title": "Sentido de Ruta",
+            "description": "Usa el botón en la esquina superior izquierda para elegir entre ida, regreso o completo según la dirección del transporte."
+          },
+          {
+            "title": "Cambiar Ciudad",
+            "description": "Usa el selector de ciudad en la parte superior para cambiar entre las ciudades disponibles."
+          },
+          {
+            "title": "Tipos de Mapa",
+            "description": "Alterna entre vista estándar y satélite desde el menú de opciones (⋮)."
+          }
+        ]
+      },
+      {
+        "title": "🎯 Planificador de Rutas",
+        "items": [
+          {
+            "title": "Establecer Origen",
+            "description": "Toca el botón 'Origen' para buscar una dirección, usar tu ubicación actual o seleccionar un lugar guardado de Mis Lugares."
+          },
+          {
+            "title": "Establecer Destino",
+            "description": "Toca el botón 'Destino' para buscar una dirección, usar tu ubicación actual o seleccionar un lugar guardado."
+          },
+          {
+            "title": "Fijar Puntos en el Mapa",
+            "description": "Usa el botón de visor (🎯) para colocar o cambiar origen y destino tocando directamente en el mapa."
+          },
+          {
+            "title": "Ver Rutas Disponibles",
+            "description": "La app analiza automáticamente y muestra las rutas que pasan cerca de tu origen y destino en el panel inferior."
+          },
+          {
+            "title": "Ajustar Radios de Búsqueda",
+            "description": "Toca el botón de radio (📏) para configurar qué tan lejos pueden estar las rutas de tu origen y destino (100m - 2000m)."
+          },
+          {
+            "title": "Intercambiar Puntos",
+            "description": "Usa el botón de flechas cruzadas (⇄) para invertir rápidamente origen y destino."
+          },
+          {
+            "title": "Iniciar Trayecto",
+            "description": "Toca Play (▶️) cuando tengas origen, destino y rutas seleccionadas. Toca Stop (⏹️) para finalizar."
+          }
+        ]
+      },
+      {
+        "title": "🔔 Notificaciones de Proximidad",
+        "items": [
+          {
+            "title": "Activar Notificaciones",
+            "description": "Los permisos de notificaciones se solicitan durante el onboarding inicial. También puedes configurarlos desde Ajustes de iOS."
+          },
+          {
+            "title": "Configurar Radios de Proximidad",
+            "description": "Desde el menú (⋮) → 'Configurar Radios de Proximidad', ajusta los 3 niveles de alerta con controles deslizantes (100m - 2000m)."
+          },
+          {
+            "title": "Alertas Progresivas",
+            "description": "Recibirás 3 alertas graduales cuando te acerques a tu destino. Las distancias son personalizables desde la configuración."
+          },
+          {
+            "title": "Funcionamiento en Segundo Plano",
+            "description": "Las notificaciones funcionan incluso con la app cerrada o minimizada, usando geofencing inteligente. No requieren conexión a internet."
+          },
+          {
+            "title": "Dynamic Island",
+            "description": "En iPhone 14 Pro y superiores, tu progreso se muestra en la Dynamic Island sin necesidad de abrir la app."
+          }
+        ]
+      },
+      {
+        "title": "⭐ Favoritos y Mis Lugares",
+        "items": [
+          {
+            "title": "Guardar Favoritos",
+            "description": "Toca el ícono de estrella (⭐) cuando tengas origen y destino seleccionados. Dale un nombre personalizado para identificarlo."
+          },
+          {
+            "title": "Cargar Favoritos",
+            "description": "Accede desde el menú (⋮) → 'Favoritos' para cargar rápidamente una búsqueda guardada."
+          },
+          {
+            "title": "Administrar Favoritos",
+            "description": "Edita nombres o elimina favoritos deslizando hacia la izquierda en la lista."
+          },
+          {
+            "title": "Mis Lugares",
+            "description": "Guarda ubicaciones frecuentes (Casa, Trabajo, Escuela) desde el menú (⋮) → 'Mis Lugares'. Aparecerán al seleccionar origen o destino."
+          },
+          {
+            "title": "Historial",
+            "description": "Revisa tus trayectos anteriores desde el menú (⋮) → 'Historial' con fecha, hora, origen, destino y rutas utilizadas."
+          }
+        ]
+      },
+      {
+        "title": "🔄 Modos de Cálculo",
+        "items": [
+          {
+            "title": "Modo Directo",
+            "description": "Calcula la distancia en línea recta entre tu ubicación y el destino. Más rápido pero menos preciso."
+          },
+          {
+            "title": "Modo Proyección",
+            "description": "Proyecta tu ubicación sobre la ruta más cercana. Ideal para saber cuánto falta sobre la ruta."
+          },
+          {
+            "title": "Modo MapKit",
+            "description": "Usa el sistema de navegación de Apple para calcular distancias reales por calles. Más preciso pero requiere conexión."
+          },
+          {
+            "title": "Modo Híbrido",
+            "description": "Combina múltiples métodos para obtener el mejor balance entre precisión y velocidad."
+          }
+        ]
+      },
+      {
+        "title": "🛒 Tienda y Suscripciones",
+        "items": [
+          {
+            "title": "Acceder a la Tienda",
+            "description": "Desde el menú (⋮) → 'Tienda' puedes ver las ciudades disponibles y suscribirte."
+          },
+          {
+            "title": "Suscripciones Anuales",
+            "description": "Cada ciudad tiene su propia suscripción anual independiente que se renueva automáticamente. Los pagos se procesan por Apple."
+          },
+          {
+            "title": "Cancelar Suscripción",
+            "description": "Puedes cancelar desde Ajustes de iOS → [Tu Nombre] → Suscripciones → RutasMEX. Mantendrás acceso hasta que termine el período pagado."
+          },
+          {
+            "title": "Restaurar Compras",
+            "description": "Si cambias de dispositivo, tus suscripciones se restauran automáticamente con tu ID de Apple."
+          }
+        ]
+      },
+      {
+        "title": "📍 Permisos",
+        "items": [
+          {
+            "title": "Ubicación",
+            "description": "Necesaria para mostrar tu posición en el mapa y calcular distancias. Puedes elegir 'Mientras usas la app' o 'Siempre'."
+          },
+          {
+            "title": "Notificaciones",
+            "description": "Requeridas para recibir alertas de proximidad. Puedes configurarlas en Ajustes de iOS."
+          },
+          {
+            "title": "Ubicación en Segundo Plano",
+            "description": "Opcional pero recomendada para que las notificaciones funcionen cuando la app está cerrada."
+          }
+        ]
+      },
+      {
+        "title": "🎯 Primeros Pasos",
+        "items": [
+          {
+            "title": "Onboarding Inicial",
+            "description": "La primera vez que uses la app verás un onboarding interactivo que explica las funcionalidades principales y solicita los permisos necesarios."
+          },
+          {
+            "title": "Ver Onboarding",
+            "description": "Puedes volver a ver el onboarding en cualquier momento desde Configuración > Ver Onboarding."
+          }
+        ]
+      },
+      {
+        "title": "❓ Preguntas Frecuentes",
+        "items": [
+          {
+            "title": "¿La app consume muchos datos móviles?",
+            "description": "No. La información de rutas se descarga una vez y se almacena localmente. El consumo de datos es mínimo después de la descarga inicial."
+          },
+          {
+            "title": "¿Puedo usar la app sin internet?",
+            "description": "Sí, una vez que hayas descargado la información de rutas de tu ciudad, puedes consultar mapas y rutas sin conexión. Las alertas de proximidad también funcionan offline."
+          },
+          {
+            "title": "¿Por qué las alertas no son exactas?",
+            "description": "Las alertas de proximidad dependen del GPS de tu iPhone, que puede verse afectado por edificios, clima o señal. Son estimaciones para ayudarte, pero siempre verifica tu ubicación visualmente."
+          },
+          {
+            "title": "¿Cómo solicito un reembolso?",
+            "description": "Los reembolsos se gestionan a través de Apple. Ve a reportaproblem.apple.com o contacta a Soporte de Apple."
+          },
+          {
+            "title": "¿Cómo cancelo mi suscripción?",
+            "description": "Ve a Ajustes de iOS → [Tu Nombre] → Suscripciones → RutasMEX → Cancelar Suscripción. Mantendrás acceso hasta el final del período pagado."
+          }
+        ]
+      },
+      {
+        "title": "📱 Requisitos del Sistema",
+        "items": [
+          {
+            "title": "Dispositivos Compatibles",
+            "description": "iPhone con iOS 17.0 o superior."
+          },
+          {
+            "title": "Espacio en Disco",
+            "description": "Aproximadamente 50 MB (varía según las ciudades descargadas)."
+          },
+          {
+            "title": "Permisos Opcionales",
+            "description": "Ubicación (para mostrar tu posición y alertas), Notificaciones (para alertas de proximidad). La app funciona sin ellos, pero con funcionalidad limitada."
+          }
+        ]
+      },
+      {
+        "title": "� Actualizaciones",
+        "items": [
+          {
+            "title": "Mantén la App Actualizada",
+            "description": "Las actualizaciones incluyen nuevas ciudades, rutas, correcciones de errores y mejoras de rendimiento. Son gratuitas y automáticas si tienes activada la opción en App Store."
+          },
+          {
+            "title": "Próximas Ciudades",
+            "description": "Estamos trabajando para agregar más ciudades de Chiapas y expandirnos a otros estados de México. ¿Quieres que agreguemos tu ciudad? Escríbenos y lo consideraremos."
+          }
+        ]
+      },
+      {
+        "title": "🐛 Reportar un Problema",
+        "items": [
+          {
+            "title": "¿Cómo reportar un bug?",
+            "description": "Ve a la sección de Contacto → 'Reportar Problema'. Incluye: descripción del problema, modelo de iPhone, versión de iOS, versión de RutasMEX (Ajustes → Acerca de) y capturas de pantalla si es posible."
+          },
+          {
+            "title": "Sugerencias y Feedback",
+            "description": "¿Tienes ideas para mejorar RutasMEX? Nuevas funcionalidades, ciudades que quieres que agreguemos o mejoras en la interfaz. Ve a Contacto → 'Sugerencias'."
+          },
+          {
+            "title": "Horarios de Atención",
+            "description": "Tiempo de respuesta estimado: hasta 72 horas hábiles. Hacemos nuestro mejor esfuerzo por responder lo antes posible."
+          }
+        ]
+      }
+    ]
+  },
+  "contacto": {
+    "sections": [
+      {
+        "title": "📧 Soporte Técnico",
+        "items": [
+          {
+            "icon": "envelope.fill",
+            "title": "Soporte General",
+            "value": "azyroapp.soporte@gmail.com",
+            "url": "mailto:azyroapp.soporte@gmail.com?subject=RutasMEX%20-%20Soporte%20General"
+          },
+          {
+            "icon": "exclamationmark.triangle.fill",
+            "title": "Reportar Problema",
+            "value": "azyroapp.soporte@gmail.com",
+            "url": "mailto:azyroapp.soporte@gmail.com?subject=RutasMEX%20-%20Reporte%20de%20Bug"
+          },
+          {
+            "icon": "lightbulb.fill",
+            "title": "Sugerencias",
+            "value": "azyroapp.soporte@gmail.com",
+            "url": "mailto:azyroapp.soporte@gmail.com?subject=RutasMEX%20-%20Sugerencia"
+          }
+        ],
+        "info": null
+      },
+      {
+        "title": "⚖️ Legal y Privacidad",
+        "items": [
+          {
+            "icon": "hand.raised.fill",
+            "title": "Asuntos Legales",
+            "value": "azyroapp.legal@gmail.com",
+            "url": "mailto:azyroapp.legal@gmail.com?subject=RutasMEX%20-%20Legal"
+          }
+        ],
+        "info": null
+      },
+      {
+        "title": "🌐 Redes y Sitio Web",
+        "items": [
+          {
+            "icon": "globe",
+            "title": "Sitio Web",
+            "value": "www.azyroapp.com",
+            "url": "https://www.azyroapp.com"
+          },
+          {
+            "icon": "play.rectangle.fill",
+            "title": "TikTok",
+            "value": "@azyroapp",
+            "url": "https://www.tiktok.com/@azyroapp"
+          }
+        ],
+        "info": null
+      },
+      {
+        "title": "💬 Información de Contacto",
+        "items": null,
+        "info": {
+          "title": "Tiempo de Respuesta",
+          "lines": [
+            "Tiempo de respuesta estimado: hasta 72 horas hábiles.",
+            "Para problemas urgentes o reportes de bugs, incluye capturas de pantalla y descripción detallada para agilizar la respuesta."
+          ]
+        }
+      }
+    ]
+  },
+  "licencias": {
+    "sections": [
+      {
+        "title": "🍎 Frameworks de Apple",
+        "frameworks": [
+          {
+            "name": "SwiftUI",
+            "description": "Framework de interfaz de usuario declarativa",
+            "license": "Apple SDK License",
+            "url": "https://developer.apple.com/support/terms/"
+          },
+          {
+            "name": "MapKit",
+            "description": "Framework de mapas y visualización geográfica",
+            "license": "Apple SDK License",
+            "url": "https://developer.apple.com/support/terms/"
+          },
+          {
+            "name": "CoreLocation",
+            "description": "Framework de servicios de ubicación",
+            "license": "Apple SDK License",
+            "url": "https://developer.apple.com/support/terms/"
+          },
+          {
+            "name": "UserNotifications",
+            "description": "Framework de notificaciones locales y remotas",
+            "license": "Apple SDK License",
+            "url": "https://developer.apple.com/support/terms/"
+          },
+          {
+            "name": "Combine",
+            "description": "Framework de programación reactiva",
+            "license": "Apple SDK License",
+            "url": "https://developer.apple.com/support/terms/"
+          },
+          {
+            "name": "ActivityKit",
+            "description": "Framework para Live Activities y Dynamic Island",
+            "license": "Apple SDK License",
+            "url": "https://developer.apple.com/support/terms/"
+          },
+          {
+            "name": "StoreKit",
+            "description": "Framework para compras y suscripciones in-app",
+            "license": "Apple SDK License",
+            "url": "https://developer.apple.com/support/terms/"
+          }
+        ],
+        "info": null
+      },
+      {
+        "title": "🗺️ Datos de Mapas",
+        "frameworks": null,
+        "info": {
+          "title": "Apple Maps",
+          "lines": [
+            "Los datos de mapas base son proporcionados por Apple Maps y están sujetos a los Términos de Servicio de Apple."
+          ],
+          "linkText": "Ver Términos de Apple Maps",
+          "linkURL": "https://www.apple.com/legal/internet-services/maps/terms-en.html"
+        }
+      },
+      {
+        "title": "🚌 Datos de Transporte Público",
+        "frameworks": null,
+        "info": {
+          "title": "Información de Rutas",
+          "lines": [
+            "Las rutas de transporte público fueron creadas y verificadas utilizando herramientas de mapas como Google Maps y Apple Maps para asegurar la precisión de los recorridos.",
+            "Todas las rutas fueron trazadas manualmente verificando el sentido de las calles y los recorridos reales de cada ruta.",
+            "Cobertura Actual: Actualmente disponible en 4 ciudades de Chiapas. Estamos trabajando para expandirnos a más ciudades de México.",
+            "Los datos públicos del gobierno sirvieron como referencia inicial, y fueron recreados y verificados para reflejar la realidad actual de las rutas."
+          ],
+          "linkText": null,
+          "linkURL": null
+        }
+      },
+      {
+        "title": "📱 Desarrollo",
+        "frameworks": null,
+        "info": {
+          "title": "RutasMEX",
+          "lines": [
+            "Aplicación de transporte público en México. Desarrollado completamente por AzyroApp usando tecnologías nativas de Apple.",
+            "No se utilizan bibliotecas de terceros externas."
+          ],
+          "linkText": null,
+          "linkURL": null
+        }
+      },
+      {
+        "title": "ℹ️ Información Adicional",
+        "frameworks": null,
+        "info": {
+          "title": "Código Abierto",
+          "lines": [
+            "Esta aplicación utiliza únicamente frameworks y herramientas proporcionadas por Apple como parte del SDK de iOS. Todos los componentes están sujetos a la licencia de Apple Developer Program.",
+            "Si tienes preguntas sobre licencias, contáctanos en: azyroapp.legal@gmail.com"
+          ],
+          "linkText": null,
+          "linkURL": null
+        }
+      }
+    ]
+  }
+}

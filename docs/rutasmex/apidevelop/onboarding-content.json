@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Bienvenido a RutasMEX",
+        "description": "Visualiza rutas de transporte público. Estamos expandiéndonos a más ciudades",
+        "icon": "onboarding_welcome",
+        "color": "blue",
+        "permissionType": "none"
+    },
+    {
+        "title": "Busca tu Ruta",
+        "description": "Encuentra rutas por nombre, categoría o ubicación. Selecciona múltiples rutas para visualizarlas en el mapa",
+        "icon": "onboarding_search",
+        "color": "green",
+        "permissionType": "none"
+    },
+    {
+        "title": "Planifica tu Viaje",
+        "description": "Selecciona origen y destino para encontrar las mejores rutas. Configura radios de búsqueda personalizados",
+        "icon": "onboarding_planner",
+        "color": "purple",
+        "permissionType": "none"
+    },
+    {
+        "title": "Guarda Favoritos",
+        "description": "Guarda tus búsquedas y rutas frecuentes para acceder rápidamente a ellas cuando las necesites",
+        "icon": "onboarding_favorites",
+        "color": "yellow",
+        "permissionType": "none"
+    },
+    {
+        "title": "Guarda tus Lugares",
+        "description": "Guarda tu casa, trabajo y lugares frecuentes. Toca el mapa para marcar un punto y encuentra rutas cercanas más rápido",
+        "icon": "onboarding_places",
+        "color": "teal",
+        "permissionType": "none"
+    },
+    {
+        "title": "Permisos de Ubicación",
+        "description": "Tu ubicación nos permite detectar tu ciudad, mostrarte rutas cercanas y notificarte cuando te acerques a tu destino",
+        "icon": "onboarding_location",
+        "color": "orange",
+        "permissionType": "location"
+    },
+    {
+        "title": "Alertas de Proximidad",
+        "description": "Recibe notificaciones cuando te acerques a tu destino. Funcionan incluso con la app cerrada",
+        "icon": "onboarding_notifications",
+        "color": "red",
+        "permissionType": "notifications"
+    },
+    {
+        "title": "¡Todo Listo!",
+        "description": "Comienza a explorar las rutas de transporte público en tu ciudad",
+        "icon": "onboarding_ready",
+        "color": "blue",
+        "permissionType": "none"
+    }
+]

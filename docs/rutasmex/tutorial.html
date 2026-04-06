@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <title>Guía Completa - RutasMEX</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+            background: #ffffff;
+            color: #000;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #000000;
+                color: #fff;
+            }
+
+            .section {
+                background: rgba(255, 255, 255, 0.05);
+                border-color: rgba(255, 255, 255, 0.1);
+            }
+
+            .tip {
+                background: rgba(52, 199, 89, 0.15);
+                border-color: rgba(52, 199, 89, 0.3);
+            }
+
+            .warning {
+                background: rgba(255, 159, 10, 0.15);
+                border-color: rgba(255, 159, 10, 0.3);
+            }
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid rgba(0, 122, 255, 0.3);
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        .intro {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 30px;
+            opacity: 0.8;
+        }
+
+        .section {
+            background: rgba(0, 0, 0, 0.03);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .emoji {
+            font-size: 24px;
+            margin-right: 8px;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .tip {
+            background: rgba(52, 199, 89, 0.1);
+            border-left: 4px solid #34C759;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        .warning {
+            background: rgba(255, 159, 10, 0.1);
+            border-left: 4px solid #FF9F0A;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        strong {
+            font-weight: 600;
+        }
+
+        code {
+            background: rgba(0, 0, 0, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'SF Mono', Monaco, monospace;
+            font-size: 14px;
+        }
+
+        .img-placeholder {
+            background: linear-gradient(135deg, rgba(0, 122, 255, 0.1) 0%, rgba(0, 122, 255, 0.05) 100%);
+            border: 2px dashed rgba(0, 122, 255, 0.3);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 15px 0;
+            color: rgba(0, 122, 255, 0.6);
+            font-weight: 500;
+            font-size: 12px;
+            height: 80px;
+            width: 100%;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .img-placeholder {
+                background: linear-gradient(135deg, rgba(0, 122, 255, 0.15) 0%, rgba(0, 122, 255, 0.08) 100%);
+                border-color: rgba(0, 122, 255, 0.4);
+                color: rgba(0, 122, 255, 0.7);
+            }
+        }
+    </style>
+</head>
+<body>
+<h1>📱 Guía Completa de RutasMEX</h1>
+<p class="intro">¡Bienvenido a RutasMEX! 🚌 Esta guía te mostrará todos los elementos interactivos de la aplicación para que puedas aprovechar al máximo tu experiencia de navegación en el transporte público.</p>
+
+<div class="section">
+    <h2><span class="emoji">🗺️</span>Pantalla Principal (Home)</h2>
+    <p>La pantalla principal está dividida en tres áreas clave: la barra superior, el mapa interactivo y el panel inferior.</p>
+</div>
+
+<div class="section">
+    <h2><span class="emoji">📍</span>BARRA SUPERIOR</h2>
+
+    <h3>1. Botón de Sentido de Ruta (Esquina Superior Izquierda)</h3>
+    <div class="img-placeholder">📸 Imagen: Botón de sentido de ruta</div>
+    <p><strong>Icono:</strong> Varía según el sentido activo (ida, regreso o completo)</p>
+    <p><strong>Función:</strong> Elige qué sentido de la ruta te conviene más para llegar a tu destino</p>
+    <p><strong>Opciones disponibles:</strong></p>
+    <ul>
+        <li>🔵 <strong>Ruta de Ida:</strong> El transporte va en un sentido (ejemplo: del centro a los alrededores)</li>
+        <li>🔴 <strong>Ruta de Regreso:</strong> El transporte va en sentido contrario (ejemplo: de los alrededores al centro)</li>
+        <li>🟣 <strong>Ruta Completo:</strong> El transporte hace el recorrido completo (ida y vuelta). Útil cuando la ruta tiene forma circular y necesitas pasar por una parte de ida y otra de regreso para llegar a tu destino.</li>
+    </ul>
+    <div class="tip">
+        <strong>💡 Cómo usar:</strong> Toca el icono para cambiar entre las opciones. La app te sugiere automáticamente el mejor sentido, pero tú puedes elegir el que prefieras.
+    </div>
+
+    <h3>2. Selector de Ciudad (Centro Superior)</h3>
+    <div class="img-placeholder">📸 Imagen: Selector de ciudad</div>
+    <p><strong>Icono:</strong> Nombre de la ciudad actual o "Selecciona ciudad"</p>
+    <p><strong>Función:</strong> Permite cambiar entre las ciudades disponibles</p>
+    <p><strong>Ciudades disponibles:</strong></p>
+    <ul>
+        <li>Tuxtla Gutiérrez</li>
+        <li>San Cristóbal de las Casas</li>
+        <li>Comitán</li>
+        <li>Tapachula</li>
+        <li>Y más ciudades próximamente...</li>
+    </ul>
+    <div class="tip">
+        <strong>💡 Cómo usar:</strong> Toca el nombre de la ciudad para abrir el selector y elegir otra ubicación.
+    </div>
+    <div class="warning">
+        <strong>⚠️ Importante:</strong> Debes seleccionar una ciudad antes de usar la mayoría de las funciones de la app.
+    </div>
+    <div class="tip">
+        <strong>💎 Desbloquea más ciudades:</strong> Se requiere suscripción para acceder a todas las funciones de cada ciudad.
+    </div>
+    <div class="tip">
+        <strong>🚀 Próximamente:</strong> Nuevas funciones, mejoras y más ciudades.
+    </div>
+
+    <h3>3. Menú de Opciones (Esquina Superior Derecha)</h3>
+    <div class="img-placeholder">📸 Imagen: Menú de opciones</div>
+    <p><strong>Icono:</strong> Tres puntos verticales (⋮)</p>
+    <p><strong>Función:</strong> Acceso al menú principal</p>
+    <p><strong>Opciones disponibles:</strong></p>
+    <ul>
+        <li><strong>Vista Satélite / Mapa Estándar:</strong> Alterna entre vista de mapa y satélite</li>
+        <li><strong>Configurar Radios de Proximidad:</strong> Ajusta las distancias de alerta cuando te acercas a tu destino</li>
+        <li><strong>Mis Lugares:</strong> Gestiona tus lugares guardados (requiere ciudad seleccionada)</li>
+        <li><strong>Favoritos:</strong> Accede a tus búsquedas favoritas de origen-destino (requiere ciudad seleccionada)</li>
+        <li><strong>Historial:</strong> Revisa el historial de tus viajes anteriores</li>
+        <li><strong>Tienda:</strong> Suscríbete para acceder a otras ciudades</li>
+        <li><strong>Configuración:</strong> Accede a los ajustes generales de la app
+            <ul>
+                <li>Información de la app (versión, build)</li>
+                <li>Ayuda y Contacto</li>
+                <li>Política de Privacidad</li>
+                <li>Términos y Condiciones</li>
+                <li>Licencias</li>
+                <li>Tutorial de la app</li>
+            </ul>
+        </li>
+        <li><strong>Compartir App:</strong> Comparte RutasMEX con tus amigos</li>
+    </ul>
+    <div class="tip">
+        <strong>💡 Cómo usar:</strong> Toca el icono de tres puntos para abrir el menú y selecciona la opción deseada.
+    </div>
+</div>
+
+<div class="section">
+    <h2><span class="emoji">🎯</span>PANEL DE ORIGEN Y DESTINO (Debajo de la barra superior)</h2>
+    <p>Este panel flotante te permite configurar el trayecto de tu ruta.</p>
+
+    <h3>4. Botón de Origen (Izquierda)</h3>
+    <div class="img-placeholder">📸 Imagen: Botón de origen</div>
+    <p><strong>Texto:</strong> "ORIGEN" (vacío) o nombre del lugar seleccionado</p>
+    <p><strong>Función:</strong> Selecciona tu punto de partida</p>
+    <p><strong>Estado:</strong> Bloqueado si no hay ciudad seleccionada o durante un trayecto en curso</p>
+    <p><strong>Cómo usar:</strong> Toca el botón para abrir el modal de selección. El modal incluye:</p>
+    <ul>
+        <li>Campo de búsqueda para buscar direcciones</li>
+        <li>Botón "Usar mi ubicación actual"</li>
+        <li>Lista de "Mis Lugares" guardados (se muestra por defecto para acceso rápido)</li>
+        <li>Al buscar, los lugares guardados se ocultan y aparecen los resultados de búsqueda</li>
+    </ul>
+
+    <h3>5. Botón de Intercambio (Centro)</h3>
+    <div class="img-placeholder">📸 Imagen: Botón de intercambio</div>
+    <p><strong>Icono:</strong> Flechas cruzadas (⇄)</p>
+    <p><strong>Función:</strong> Intercambia origen y destino</p>
+    <p><strong>Estado:</strong></p>
+    <ul>
+        <li>Habilitado: Cuando hay al menos un lugar seleccionado</li>
+        <li>Bloqueado: Sin ciudad o durante trayecto en curso</li>
+    </ul>
+    <div class="tip">
+        <strong>💡 Cómo usar:</strong> Toca para invertir origen y destino instantáneamente.
+    </div>
+
+    <h3>6. Botón de Favorito (Centro)</h3>
+    <div class="img-placeholder">📸 Imagen: Botón de favorito</div>
+    <p><strong>Icono:</strong> Estrella (⭐ vacía o ⭐ llena)</p>
+    <p><strong>Función:</strong> Guarda la combinación origen-destino como favorita</p>
+    <p><strong>Estados:</strong></p>
+    <ul>
+        <li>Estrella vacía: No es favorito</li>
+        <li>Estrella llena (amarilla): Ya está guardado como favorito</li>
+        <li>Bloqueado: Si no hay origen Y destino seleccionados</li>
+    </ul>
+    <div class="tip">
+        <strong>💡 Cómo usar:</strong> Toca para guardar como favorito. Se abrirá un modal para nombrar el favorito.
+    </div>
+
+    <h3>7. Botón de Destino (Derecha)</h3>
+    <div class="img-placeholder">📸 Imagen: Botón de destino</div>
+    <p><strong>Texto:</strong> "DESTINO" (vacío) o nombre del lugar seleccionado</p>
+    <p><strong>Función:</strong> Selecciona tu punto de llegada</p>
+    <p><strong>Estado:</strong> Bloqueado si no hay ciudad seleccionada o durante un trayecto en curso</p>
+    <p><strong>Cómo usar:</strong> Toca el botón para abrir el modal de selección. El modal incluye:</p>
+    <ul>
+        <li>Campo de búsqueda para buscar direcciones</li>
+        <li>Botón "Usar mi ubicación actual"</li>
+        <li>Lista de "Mis Lugares" guardados (se muestra por defecto para acceso rápido)</li>
+        <li>Al buscar, los lugares guardados se ocultan y aparecen los resultados de búsqueda</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2><span class="emoji">🗺️</span>MAPA INTERACTIVO (Centro de la pantalla)</h2>
+    <div class="img-placeholder">📸 Imagen: Vista del mapa interactivo</div>
+    <p>El mapa muestra tu ubicación actual, las rutas seleccionadas y los puntos de origen/destino.</p>
+
+    <h3>Elementos visuales en el mapa:</h3>
+    <ul>
+        <li>📍 <strong>Pin azul:</strong> Tu ubicación actual</li>
+        <li>🟢 <strong>Pin verde:</strong> Punto de origen</li>
+        <li>🔴 <strong>Pin rojo:</strong> Punto de destino</li>
+        <li>🎨 <strong>Líneas de colores:</strong> Rutas de transporte seleccionadas (cada ruta tiene su propio color)</li>
+        <li>🟢 <strong>Línea verde continua:</strong> Trayecto calculado desde el punto proyectado del origen hasta el punto proyectado del destino en la ruta</li>
+        <li>🟡 <strong>Línea amarilla punteada:</strong> Trayecto desde el punto proyectado de tu ubicación actual hasta el destino (durante trayecto en curso)</li>
+        <li>🟢 <strong>Círculo verde continuo:</strong> Radio de búsqueda del origen</li>
+        <li>🔴 <strong>Círculo rojo continuo:</strong> Radio de búsqueda del destino</li>
+        <li>🔵 <strong>Círculos azules punteados:</strong> Radios de proximidad (alertas de llegada al destino - 3 niveles)</li>
+    </ul>
+
+    <h3>Interacción con el mapa:</h3>
+    <ul>
+        <li><strong>Pellizcar:</strong> Zoom in/out</li>
+        <li><strong>Arrastrar:</strong> Mover el mapa</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2><span class="emoji">🎮</span>CONTROLES FLOTANTES (Parte inferior del mapa)</h2>
+    <p>Esta barra contiene los controles principales para gestionar tu trayecto.</p>
+
+    <h3>8. Banner de Información de Trayecto (Izquierda)</h3>
+    <div class="img-placeholder">📸 Imagen: Banner de información de trayecto</div>
+    <p><strong>Apariencia:</strong> Círculo negro con información del trayecto en curso</p>
+    <p><strong>Función:</strong> Muestra datos estimados en tiempo real durante un trayecto</p>
+    <p><strong>Información mostrada:</strong></p>
+    <ul>
+        <li>Distancia restante al destino (en km)</li>
+        <li>Tiempo estimado de llegada (en minutos)</li>
+    </ul>
+    <div class="warning">
+        <strong>⚠️ Importante:</strong> Los tiempos y distancias son estimados y pueden variar según el tráfico, velocidad del transporte y otros factores externos.
+    </div>
+    <p><strong>Interacción:</strong> Toca el banner para ver información detallada del trayecto.</p>
+    <p><strong>Visibilidad:</strong> Solo aparece cuando hay un trayecto en curso.</p>
+    <div class="tip">
+        <strong>💡</strong> Si minimizas o cierras la app durante un trayecto, esta información también se muestra en la Dynamic Island (iPhone 14 Pro y superiores) para que puedas seguir tu progreso sin abrir la app.
+    </div>
+
+    <h3>9. Botón Play / Stop (Segundo desde la izquierda)</h3>
+    <div class="img-placeholder">📸 Imagen: Botón Play/Stop</div>
+    <p><strong>Iconos:</strong></p>
+    <ul>
+        <li>▶️ Play: Iniciar trayecto</li>
+        <li>⏹️ Stop: Detener trayecto</li>
+    </ul>
+    <p><strong>Función:</strong> Controla el inicio y fin de tu trayecto</p>
+    <p><strong>Estados del botón Play:</strong></p>
+    <ul>
+        <li>Habilitado: Cuando hay origen, destino, rutas seleccionadas y ciudad</li>
+        <li>Deshabilitado: Si falta algún requisito</li>
+    </ul>
+    <p><strong>Cómo usar:</strong></p>
+    <ul>
+        <li><strong>Iniciar trayecto:</strong> Toca Play cuando tengas todo configurado</li>
+        <li><strong>Detener trayecto:</strong> Toca Stop para finalizar el trayecto en curso</li>
+    </ul>
+
+    <h3>10. Botón Reset (Tercero desde la izquierda)</h3>
+    <div class="img-placeholder">📸 Imagen: Botón Reset</div>
+    <p><strong>Icono:</strong> 🗑️ Papelera</p>
+    <p><strong>Función:</strong> Limpia todos los datos: origen, destino y rutas seleccionadas</p>
+    <p><strong>Estado:</strong> Bloqueado durante un trayecto en curso</p>
+    <div class="tip">
+        <strong>💡 Cómo usar:</strong> Toca para reiniciar y comenzar una nueva búsqueda desde cero.
+    </div>
+    <div class="tip">
+        <strong>📝 Nota:</strong> Al resetear, tendrás que volver a configurar origen, destino y seleccionar rutas para iniciar un nuevo trayecto.
+    </div>
+
+    <h3>11. Botón de Radios de Búsqueda (Cuarto desde la izquierda)</h3>
+    <div class="img-placeholder">📸 Imagen: Botón de radios de búsqueda</div>
+    <p><strong>Icono:</strong> 📏 Regla</p>
+    <p><strong>Función:</strong> Ajusta qué tan lejos pueden estar las rutas de tu origen y destino</p>
+    <p><strong>Estado:</strong> Bloqueado durante un trayecto en curso</p>
+    <div class="tip">
+        <strong>💡 Cómo usar:</strong> Toca para abrir el ajuste de distancias. Puedes aumentar o disminuir qué tan lejos buscar rutas.
+    </div>
+    <div class="tip">
+        <strong>¿Cuándo usarlo?</strong> Si no encuentras rutas, aumenta el radio para buscar más lejos.
+    </div>
+
+    <h3>12. Botón para Fijar Origen y Destino Manualmente (Quinto desde la izquierda)</h3>
+    <div class="img-placeholder">📸 Imagen: Botón para fijar ubicación manualmente</div>
+    <p><strong>Icono:</strong></p>
+    <ul>
+        <li>🎯 Visor de ubicación (modo normal)</li>
+        <li>❌ X roja (modo cancelar)</li>
+    </ul>
+    <p><strong>Función:</strong> Coloca o cambia manualmente los pines de origen y destino tocando directamente en el mapa</p>
+    <p><strong>Comportamiento:</strong></p>
+    <ul>
+        <li><strong>Sin ubicaciones:</strong> Toca el botón y luego toca en el mapa para colocar origen y destino</li>
+        <li><strong>Con ubicaciones:</strong> Abre menú con opciones:
+            <ul>
+                <li>"Nuevo origen y destino"</li>
+                <li>"Cambiar origen"</li>
+                <li>"Cambiar destino"</li>
+                <li>"Cancelar selección" (si está activo)</li>
+            </ul>
+        </li>
+    </ul>
+    <p><strong>Estados:</strong></p>
+    <ul>
+        <li>Azul: Listo para seleccionar</li>
+        <li>Rojo: Modo selección activado (toca en el mapa para elegir ubicación)</li>
+        <li>Gris: Bloqueado durante trayecto en curso</li>
+    </ul>
+    <p><strong>Cómo usar:</strong></p>
+    <ol>
+        <li>Toca el botón</li>
+        <li>Selecciona qué quieres cambiar (origen, destino o ambos)</li>
+        <li>Toca en el mapa donde quieres colocar el pin</li>
+        <li>Confirma o cancela la selección</li>
+    </ol>
+
+    <h3>13. Botón de Búsqueda (Derecha)</h3>
+    <div class="img-placeholder">📸 Imagen: Botón de búsqueda</div>
+    <p><strong>Icono:</strong> 🔍 Lupa</p>
+    <p><strong>Función:</strong> Abre el modal de búsqueda de rutas</p>
+    <p><strong>Estado:</strong> Bloqueado si no hay ciudad seleccionada</p>
+    <div class="tip">
+        <strong>💡 Cómo usar:</strong> Toca para buscar rutas específicas por nombre o número.
+    </div>
+</div>
+
+<div class="section">
+    <h2><span class="emoji">📋</span>PANEL INFERIOR (Hoja deslizable)</h2>
+    <div class="img-placeholder">📸 Imagen: Panel inferior con rutas</div>
+    <p>Este panel muestra las rutas disponibles según tu origen y destino.</p>
+
+    <h3>Estados del panel:</h3>
+
+    <h4>Estado 1: Sin origen ni destino</h4>
+    <p><strong>Mensaje:</strong> "Selecciona origen o destino"</p>
+    <p><strong>Descripción:</strong> "Toca los botones de arriba para elegir tu punto de origen o destino, luego verás las rutas disponibles."</p>
+
+    <h4>Estado 2: Sin rutas disponibles</h4>
+    <p><strong>Mensaje:</strong> "No hay rutas disponibles"</p>
+    <p><strong>Descripción:</strong> "No se encontraron rutas cerca de tu ubicación. Prueba ajustar los radios de búsqueda."</p>
+
+    <h4>Estado 3: Rutas disponibles</h4>
+    <p><strong>Contenido:</strong> Lista de botones de rutas disponibles</p>
+
+    <h3>14. Botones de Rutas</h3>
+    <div class="img-placeholder">📸 Imagen: Botones de rutas disponibles</div>
+    <p><strong>Apariencia:</strong> Botones rectangulares con el nombre/número de la ruta</p>
+    <p><strong>Función:</strong> Selecciona/deselecciona rutas para visualizar en el mapa</p>
+    <p><strong>Organización de las rutas:</strong></p>
+    <p>Las rutas se organizan automáticamente en dos grupos:</p>
+    <ol>
+        <li><strong>Rutas con nombre completo</strong> (se muestran primero)
+            <ul>
+                <li>Se adaptan al ancho de la pantalla (1 a 3 columnas según el espacio)</li>
+                <li>Ejemplos: "RUTA AEROPUERTO (Galecio Narcía)", "Suchiapa (86-103)"</li>
+                <li>Ordenadas alfabéticamente</li>
+            </ul>
+        </li>
+        <li><strong>Rutas numéricas</strong> (se muestran después)
+            <ul>
+                <li>Se organizan en 4 columnas fijas</li>
+                <li>Ejemplos: "1", "15", "23"</li>
+                <li>Ordenadas numéricamente</li>
+            </ul>
+        </li>
+    </ol>
+    <p><strong>Estados:</strong></p>
+    <ul>
+        <li>No seleccionada: Fondo claro</li>
+        <li>Seleccionada: Fondo destacado (azul)</li>
+    </ul>
+    <div class="tip">
+        <strong>💡 Cómo usar:</strong> Toca un botón para seleccionar/deseleccionar la ruta. Las rutas seleccionadas se muestran en el mapa.
+    </div>
+</div>
+
+<div class="section">
+    <h2><span class="emoji">📊</span>MODALES Y PANTALLAS SECUNDARIAS</h2>
+
+    <h3>Modal de Selección de Ubicación</h3>
+    <p><strong>Se abre al tocar:</strong> Botones de Origen o Destino</p>
+    <p><strong>Contenido:</strong></p>
+    <ul>
+        <li>Campo de búsqueda para buscar direcciones</li>
+        <li>Botón "Usar mi ubicación actual" (con icono de ubicación)</li>
+        <li>Lista de "Mis Lugares" guardados (se muestra por defecto)</li>
+    </ul>
+    <p><strong>Comportamiento:</strong></p>
+    <ul>
+        <li><strong>Sin búsqueda:</strong> Se muestran tus lugares guardados desde "Mis Lugares" para acceso rápido</li>
+        <li><strong>Con búsqueda:</strong> Los lugares guardados se ocultan y aparecen los resultados de búsqueda</li>
+    </ul>
+    <p><strong>Acciones:</strong></p>
+    <ul>
+        <li>Buscar por nombre o dirección en el campo de búsqueda</li>
+        <li>Tocar "Usar mi ubicación actual" para usar tu ubicación GPS</li>
+        <li>Seleccionar un lugar de "Mis Lugares" (si tienes lugares guardados)</li>
+        <li>Seleccionar un resultado de búsqueda</li>
+    </ul>
+
+    <h3>Modal de Radios de Búsqueda</h3>
+    <p><strong>Se abre al tocar:</strong> Botón de Radios de Búsqueda (📏)</p>
+    <p><strong>Contenido:</strong></p>
+    <ul>
+        <li>Control deslizable para origen (100m - 2000m)</li>
+        <li>Control deslizable para destino (100m - 2000m)</li>
+        <li>Vista previa de los círculos en el mapa</li>
+    </ul>
+    <p><strong>Cómo usar:</strong></p>
+    <ol>
+        <li>Mueve los controles para ajustar las distancias</li>
+        <li>Verás los cambios inmediatamente en el mapa</li>
+        <li>Cierra cuando estés satisfecho</li>
+    </ol>
+    <div class="tip">
+        <strong>Ejemplo práctico:</strong> Si pones 500m en origen, la app buscará rutas que pasen a menos de 500 metros de tu punto de partida.
+    </div>
+
+    <h3>Modal de Radios de Proximidad</h3>
+    <p><strong>Se abre desde:</strong> Menú (⋮) → "Configurar Radios de Proximidad"</p>
+    <p><strong>Contenido:</strong></p>
+    <ul>
+        <li>Tres niveles de alertas de proximidad configurables</li>
+        <li>Control deslizable para cada nivel (100m - 2000m)</li>
+        <li>Vista previa de los círculos punteados en el mapa</li>
+    </ul>
+    <p><strong>Cómo usar:</strong></p>
+    <ol>
+        <li>Ajusta las distancias de los 3 niveles de alerta</li>
+        <li>Verás los círculos azules punteados en el mapa</li>
+        <li>Recibirás notificaciones cuando te acerques a tu destino según estos radios</li>
+    </ol>
+    <div class="tip">
+        <strong>Ejemplo práctico:</strong> Si configuras el primer nivel en 1000m, recibirás una alerta cuando estés a 1km de tu destino.
+    </div>
+
+    <h3>Modal de Búsqueda de Rutas</h3>
+    <p><strong>Se abre al tocar:</strong> Botón de Búsqueda (🔍)</p>
+    <p><strong>Contenido:</strong></p>
+    <ul>
+        <li>Barra de búsqueda</li>
+        <li>Lista completa de rutas de la ciudad</li>
+        <li>Indicador de rutas ya seleccionadas</li>
+    </ul>
+    <p><strong>Cómo usar:</strong></p>
+    <ol>
+        <li>Escribe el nombre o número de ruta</li>
+        <li>Toca para seleccionar/deseleccionar</li>
+        <li>Cierra cuando termines</li>
+    </ol>
+
+    <h3>Modal de Favoritos</h3>
+    <p><strong>Se abre desde:</strong> Menú (⋮) → "Favoritos"</p>
+    <p><strong>Contenido:</strong></p>
+    <ul>
+        <li>Lista de búsquedas favoritas guardadas</li>
+        <li>Nombre personalizado de cada favorito</li>
+        <li>Origen y destino de cada uno</li>
+    </ul>
+    <p><strong>Acciones:</strong></p>
+    <ul>
+        <li>Tocar un favorito para cargarlo</li>
+        <li>Deslizar para eliminar</li>
+    </ul>
+
+    <h3>Modal de Mis Lugares</h3>
+    <p><strong>Se abre desde:</strong> Menú (⋮) → "Mis Lugares"</p>
+    <p><strong>Contenido:</strong></p>
+    <ul>
+        <li>Lista de lugares guardados</li>
+        <li>Nombre y dirección de cada lugar</li>
+        <li>Botones de edición y eliminación</li>
+    </ul>
+    <p><strong>Acciones:</strong></p>
+    <ul>
+        <li>Agregar nuevo lugar</li>
+        <li>Editar lugares existentes</li>
+        <li>Eliminar lugares</li>
+    </ul>
+
+    <h3>Modal de Historial</h3>
+    <p><strong>Se abre desde:</strong> Menú (⋮) → "Historial"</p>
+    <p><strong>Contenido:</strong></p>
+    <ul>
+        <li>Lista de trayectos anteriores</li>
+        <li>Fecha y hora de cada trayecto</li>
+        <li>Origen y destino</li>
+        <li>Rutas utilizadas</li>
+    </ul>
+    <p><strong>Acciones:</strong></p>
+    <ul>
+        <li>Ver detalles de un trayecto</li>
+    </ul>
+
+    <h3>Modal de Tienda</h3>
+    <p><strong>Se abre desde:</strong> Menú (⋮) → "Tienda"</p>
+    <p><strong>Contenido:</strong></p>
+    <ul>
+        <li>Ciudades disponibles para suscripción</li>
+        <li>Precios de cada ciudad</li>
+        <li>Estado de suscripción (activa/inactiva)</li>
+    </ul>
+    <p><strong>Acciones:</strong></p>
+    <ul>
+        <li>Suscribirte para acceder a otras ciudades</li>
+        <li>Restaurar suscripciones</li>
+    </ul>
+
+    <h3>Modal de Llegada</h3>
+    <p><strong>Cuándo aparece:</strong> Cuando llegas a tu destino o cuando tocas stop</p>
+    <p><strong>Contenido:</strong></p>
+    <ul>
+        <li>Confirmación de llegada</li>
+        <li>Resumen del trayecto</li>
+        <li>Tiempo total</li>
+        <li>Distancia recorrida</li>
+    </ul>
+    <p><strong>Acciones:</strong></p>
+    <ul>
+        <li>Confirmar llegada</li>
+        <li>Finalizar trayecto</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2><span class="emoji">💡</span>TIPS Y TRUCOS</h2>
+
+    <h3>🌟 Guardar Favoritos</h3>
+    <p>Si usas frecuentemente la misma ruta (casa-trabajo, escuela-centro, etc.):</p>
+    <ol>
+        <li>Configura origen y destino</li>
+        <li>Toca el botón de estrella (⭐)</li>
+        <li>Dale un nombre memorable</li>
+        <li>Accede rápidamente desde el menú "Favoritos"</li>
+    </ol>
+
+    <h3>📍 Mis Lugares</h3>
+    <p>Guarda ubicaciones frecuentes:</p>
+    <ol>
+        <li>Menú (⋮) → "Mis Lugares"</li>
+        <li>Agrega lugares como "Casa", "Trabajo", "Escuela"</li>
+        <li>Úsalos rápidamente al seleccionar origen/destino</li>
+    </ol>
+
+    <h3>📏 Ajustar Radios de Búsqueda</h3>
+    <p>Si no encuentras rutas o encuentras demasiadas:</p>
+    <ol>
+        <li>Toca el botón de radio (📏)</li>
+        <li>Ajusta las distancias según necesites:
+            <ul>
+                <li><strong>Menos rutas pero más cercanas:</strong> Disminuye los valores</li>
+                <li><strong>Más opciones de rutas:</strong> Aumenta los valores</li>
+            </ul>
+        </li>
+        <li>Observa cómo cambian los círculos en el mapa</li>
+    </ol>
+</div>
+
+<div class="section">
+    <h2><span class="emoji">❓</span>PREGUNTAS FRECUENTES</h2>
+
+    <h3>¿Por qué algunos botones están en gris?</h3>
+    <p>Los botones se deshabilitan cuando:</p>
+    <ul>
+        <li>No has seleccionado una ciudad</li>
+        <li>Hay un trayecto en curso (para evitar cambios accidentales)</li>
+    </ul>
+
+    <h3>¿Cómo funcionan los radios de búsqueda?</h3>
+    <p>Los radios definen qué tan lejos puede estar una ruta de tu origen o destino para que la app la considere útil:</p>
+    <ul>
+        <li><strong>Radio pequeño (100-300m):</strong> Solo muestra rutas muy cercanas (más preciso)</li>
+        <li><strong>Radio grande (1000-2000m):</strong> Muestra más rutas, aunque pasen más lejos</li>
+    </ul>
+    <div class="tip">
+        <strong>Ejemplo:</strong> Si tu origen es tu casa y pones radio de 200m, solo verás rutas que pasen a menos de 200 metros de tu casa.
+    </div>
+
+    <h3>¿Puedo usar la app sin internet?</h3>
+    <p><strong>La app requiere conexión a internet para:</strong></p>
+    <ul>
+        <li>Cargar el mapa inicial</li>
+        <li>Buscar direcciones</li>
+    </ul>
+    <p><strong>Durante un trayecto en curso:</strong></p>
+    <ul>
+        <li>El mapa ya cargado NO consume datos adicionales (está en caché)</li>
+        <li>Los geofences (alertas de proximidad) funcionan con GPS, sin necesidad de internet</li>
+        <li>La Dynamic Island sigue funcionando sin conexión</li>
+    </ul>
+
+    <h3>¿Cuánta batería consume la app?</h3>
+    <p><strong>Consumo de batería:</strong></p>
+    <p><strong>Con la app abierta:</strong></p>
+    <ul>
+        <li>Consumo moderado debido al GPS activo y actualización del mapa en tiempo real</li>
+    </ul>
+    <p><strong>Con la app minimizada o iPhone bloqueado:</strong></p>
+    <ul>
+        <li>Consumo mínimo gracias a los geofences (cercas virtuales)</li>
+        <li>La Dynamic Island muestra tu progreso sin mantener la app activa</li>
+        <li>Los geofences solo se activan cuando te acercas a tu destino</li>
+    </ul>
+    <p><strong>🔋 Tips para ahorrar batería:</strong></p>
+    <ul>
+        <li>Bloquea tu iPhone durante el trayecto (la app sigue funcionando en segundo plano)</li>
+        <li>Minimiza la app y usa la Dynamic Island para ver tu progreso</li>
+        <li>Los geofences consumen menos batería que tener la app abierta constantemente</li>
+    </ul>
+
+    <h3>¿Cuántos datos móviles consume?</h3>
+    <p><strong>Consumo de datos:</strong></p>
+    <p><strong>Al iniciar:</strong></p>
+    <ul>
+        <li>Carga inicial del mapa: ~2-5 MB (dependiendo del área visible)</li>
+        <li>Búsqueda de direcciones: consume datos solo cuando buscas una dirección específica</li>
+    </ul>
+    <p><strong>Durante el trayecto:</strong></p>
+    <ul>
+        <li>Mínimo o nulo si el mapa ya está cargado (usa caché)</li>
+        <li>Solo consume datos si mueves el mapa a áreas nuevas no cargadas</li>
+        <li>Una vez cargado el mapa de tu ruta, el consumo es casi nulo</li>
+    </ul>
+
+    <h3>¿Cómo guardo mis rutas favoritas?</h3>
+    <ol>
+        <li>Configura origen y destino</li>
+        <li>Toca la estrella (⭐)</li>
+        <li>Dale un nombre</li>
+        <li>Accede desde Menú → "Favoritos"</li>
+    </ol>
+</div>
+
+<div class="section">
+    <h2><span class="emoji">🆘</span>SOLUCIÓN DE PROBLEMAS</h2>
+
+    <h3>El mapa no carga</h3>
+    <ul>
+        <li>✅ Verifica tu conexión a internet</li>
+        <li>✅ Cierra y vuelve a abrir la app</li>
+        <li>✅ Verifica permisos de ubicación en Ajustes</li>
+    </ul>
+
+    <h3>No aparecen rutas</h3>
+    <ul>
+        <li>✅ Confirma que seleccionaste una ciudad</li>
+        <li>✅ Aumenta las distancias de búsqueda con el botón de radio (📏)</li>
+        <li>✅ Verifica que tu origen y destino estén dentro de la ciudad seleccionada</li>
+        <li>✅ Intenta con ubicaciones diferentes, preferiblemente cerca de avenidas principales</li>
+    </ul>
+
+    <h3>El trayecto no inicia</h3>
+    <ul>
+        <li>✅ Verifica que tengas origen, destino y al menos una ruta seleccionada</li>
+        <li>✅ Confirma que hay una ciudad seleccionada</li>
+        <li>✅ Verifica permisos de ubicación</li>
+    </ul>
+
+    <h3>Las notificaciones no funcionan</h3>
+    <ul>
+        <li>✅ Ve a Ajustes del iPhone → RutasMEX → Notificaciones</li>
+        <li>✅ Activa "Permitir notificaciones"</li>
+        <li>✅ Configura las alertas de proximidad en la app</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2><span class="emoji">🎉</span>CONSEJOS FINALES</h2>
+
+    <h3>Para la mejor experiencia:</h3>
+    <ul>
+        <li>🔋 <strong>Ahorra batería:</strong> Bloquea tu iPhone o minimiza la app durante el trayecto. La Dynamic Island y los geofences seguirán funcionando</li>
+        <li>📶 <strong>Ahorra datos:</strong> Una vez cargado, el consumo de datos es mínimo</li>
+        <li>🎯 Guarda tus rutas frecuentes como favoritos</li>
+        <li>📍 Agrega tus lugares habituales en "Mis Lugares"</li>
+        <li>🔔 Activa notificaciones para alertas de proximidad</li>
+        <li>🗺️ Explora el mapa antes de iniciar un trayecto</li>
+        <li>⭐ Comparte la app con amigos y familiares</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2><span class="emoji">🚀</span>ACTUALIZACIONES</h2>
+
+    <p>RutasMEX se actualiza constantemente con:</p>
+    <ul>
+        <li>Nuevas ciudades</li>
+        <li>Mejoras de rendimiento</li>
+        <li>Nuevas funciones</li>
+        <li>Corrección de errores</li>
+    </ul>
+
+    <p>Mantén la app actualizada desde la App Store para disfrutar de todas las mejoras.</p>
+
+    <p style="text-align: center; margin-top: 30px; font-size: 20px;">
+        <strong>¡Gracias por usar RutasMEX! 🚌✨</strong>
+    </p>
+</div>
+
+</body>
+</html>
