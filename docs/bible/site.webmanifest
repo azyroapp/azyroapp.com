@@ -1,0 +1,8 @@
+{
+  "name": "Biblia",
+  "short_name": "Biblia",
+  "start_url": "/bible/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb"
+}
